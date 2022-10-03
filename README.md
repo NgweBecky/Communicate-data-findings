@@ -54,7 +54,7 @@ This project is divided into two major parts. In the first part, you will conduc
 
 In the second part, you will take your main findings from your exploration and convey them to others through an explanatory analysis. To this end, you will create a slide deck that leverages polished, explanatory visualizations to communicate your results. This part of the project should make heavy use of the first part of the project. 
 
-### Part 1 - Exploratory Data Analysis
+### Part I - Exploratory Data Analysis
 #### Step 1.1: Choose your Dataset <a name="choose"></a>
 
 First, choose a dataset from the Dataset Options.
@@ -80,7 +80,7 @@ It’s time to get to the interesting bits. Explore your data and document your 
 #### Step 2.1: Document your Story <a name="ds"></a>
 
 At the end of your exploration, you probably have a bunch of things that you’ve discovered. Now it’s time to organize your findings and select a story that you will convey to others. In your readme document, you should summarize your main findings and reflect on the steps you took in your data exploration. You should also lay out the key insights that you want to convey in your explanatory report as well as any changes to visualizations, or note new visualizations that will be created to bridge between your insights.
-### Part 2 - Explanatory Data Analysis
+### Part II - Explanatory Data Analysis
 #### Step 2.2: Create your Slide Deck <a name="sd"></a>
 
 Follow the plans you laid out in the previous step and create a slide deck with explanatory data visualizations to tell a story about the data you explored. You can start with code that you used in your exploration, but you should make sure that the code is revised so that your plots are polished. Make sure that you also pay attention to aspects of design integrity in your revisions.
