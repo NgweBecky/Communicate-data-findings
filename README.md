@@ -103,44 +103,19 @@ There’s one last thing to do before you submit your project. You should closel
 
 
 ### Dataset <a name="dataset"></a>
-This data set contains information on peer to peer loans facilitated by credit company Prosper. There are 113,937 loans with 81 variables. For the purpose of this investigation I've taken the following variables: Term, LoanStatus, BorrowerRate, ProsperRating (Alpha), ListingCategory (numeric), EmploymentStatus, DelinquenciesLast7Years, StatedMonthlyIncome, TotalProsperLoans, LoanOriginalAmount, LoanOriginationDate, Recommendations and Investors.
+This data set contains information on peer to peer loans facilitated by credit company Prosper. There are 113,937 loans with 81 variables. For the purpose of this investigation I've taken the following variables: Term, LoanStatus, BorrowerRate, ProsperRating (Alpha), ListingCategory (numeric), EmploymentStatus, DelinquenciesLast7Years, StatedMonthlyIncome, TotalProsperLoans, LoanOriginalAmount, LoanOriginationDate, Recommendations, BorrowerAPR and Investors.
 
  
 ### Results <a name="results"></a>
 
 - Most of the loans in the data set are actually current loans. Past due loans are split in several groups based on the length of payment delay. Other big part is completed loans, defaulted loans compromise a minority, however chargedoff loans also comporomise a substanial amount.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-1.png">
-</p>
 - The majority of borrowers are employed and all other categories as small part of borrowers. In small Group full time has highest, after that self empolyed are there and so on.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-2.png">
-</p>
 - With a boundary of mean and 3 times standard deviations distribution of monthly income still has noticeable right skew but now we can see that mode is about 5000. 
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-3.png">
-</p>
-- The most frequent rating among defaulted loans is actually D. And the most frequent rating among Completed is alsoDand second highest is A and so on in Status and Prosper Rating.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-4.png">
-</p>
+- The most frequent rating among defaulted loans is actually D. And the most frequent rating among Completed is also D and second highest is A and so on in Status and Prosper Rating.
 - In both of them Credit Start with Listing Category Graphs of the debt Consolidation have most frequency among all of them.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-5.png">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-6.png">
-</p>
 - Lower ratings seem to have greater proportions of individuals with employment status Not Employed, Self-employed, Retired and Part-Time. 
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-7.png">
-</p>
-- Except for the lowest ratings defaulted credits tend to be larger than completed. Most of the defaulted credits comes from individuals with low Prosper rating.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-8.png">
-</p>
-- Except for Auto, Business and Home Improvemrnt dont have nearly equal mean amoong all of them. Business category tend to have larger amount.<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-9.png">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-10.png">
-</p>
+- Borrower APR decreases with an increase in Prosper ratings. Borrowers with the least APR has the best Prosper ratings.
+- The borrower APR decrease with an increase in borrow term for people with HR-C raings. The APR increase with the increase of borrow term for people with B-AA ratings.
 
 ## Key Insights for Presentation <a name="kip"></a>
 I've chosen key plots with high data-to-ink ratio for the presentation. The plots I've chosen shows distribution of main variables, Loan status, monthly income, Prosper rating and I've tried to tell a story what are major predictors for loan status and Prosper rating variables.
