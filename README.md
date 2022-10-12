@@ -115,7 +115,7 @@ This data set contains information on peer to peer loans facilitated by credit c
 - In both of them Credit Start with Listing Category Graphs of the debt Consolidation have most frequency among all of them.
 - Lower ratings seem to have greater proportions of individuals with employment status Not Employed, Self-employed, Retired and Part-Time. 
 - Borrower APR decreases with an increase in Prosper ratings. Borrowers with the least APR has the best Prosper ratings.
-- The borrower APR decrease with an increase in borrow term for people with HR-C raings. The APR increase with the increase of borrow term for people with B-AA ratings.
+- The borrower APR fluctuates with an increase in borrow term for people with HR-C raings. The APR increase with the increase of borrow term for people with B-AA ratings.
 
 ## Key Insights for Presentation <a name="kip"></a>
 I've chosen key plots with high data-to-ink ratio for the presentation. The plots I've chosen shows distribution of main variables, Loan status, monthly income, Prosper rating and I've tried to tell a story what are major predictors for loan status and Prosper rating variables.
